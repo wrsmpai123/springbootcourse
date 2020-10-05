@@ -3,6 +3,7 @@ package com.atguigu.springboot.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -13,6 +14,11 @@ import java.util.Map;
  */
 @Controller
 public class HelloController {
+
+//    @RequestMapping({"/","/login.html"})
+//    public String index() {
+//        return "index";
+//    }
 
     @ResponseBody
     @RequestMapping("/hello")

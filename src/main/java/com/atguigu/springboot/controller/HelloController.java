@@ -17,7 +17,7 @@ public class HelloController {
 
 //    @RequestMapping({"/","/login.html"})
 //    public String index() {
-//        return "index";
+//        return "login";
 //    }
 
     @ResponseBody
